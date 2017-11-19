@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav{
+    background: #101692;
+    width: 100%;
+    height: 40px;
+}
+body{
+    background:#010001;
+}
+img{
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+}
+i,p{
+    display: inline-block;
+}
+.box-tab{
+    background: #383c80;
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 6px;
+}
+.box-input{
+    display: inline-block;
+    background: #383c80;
+    font-size: 16px;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px; 
+}
+.box-input [type]{
+    background: #383c80;
+    border: none;
+}
+.box-trello{
+    color: #fff;
+    display: inline-block;
+    margin: 0 415px;
+}
+.box-trello p{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+.box-icons{
+    display: inline-block;
+    position: relative;
+}
+.box-icons i{
+    background: #383c80;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px; 
+}
+.box-title{
+    position: relative;
+    margin:10px;
+    display: inline-block;
+    color: #fff;
+}
+.box-title h2,i{
+    display: inline-block;
+    color: #fff;
+}
+.box-title i{
+    font-weight: bold;
+}
+.box-private{
+    position: relative;
+    margin:20px;
+    display: inline-block;
+    color: #fff;
+}
+.box-private i{
+    font-weight: bold;
+}
+.box-href{
+    color: #fff;
+    position: absolute;
+    margin:20px;
+    display: inline-block;
+    right: 10px;
+}
+.box-href a{
+    color: #fff;
+}
+.input{
+    margin-left: 20px;
+}
+.box-message [type]{
+    background: silver;
+    outline: none;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    color: #000;
+    resize: none;
+    width: 200px;
+}
+.input-box-message{
+    width: 220px;
+    height: auto;
+    padding: 10px;
+    background: #fff;
+    position: relative;
+    left: 40px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.button-input{
+    display: inline-block;
+    background: green;
+    border: none;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 5px;
+    outline: none;
+}
+.equis{
+    color: gray;
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 13px;
+    margin-top: 10px;
+}
